@@ -1,5 +1,5 @@
 def checkString(str)
-    puts str.start_with?('if')
+    return str.start_with?('if')
 end
 
-checkString('ifram')
+puts checkString('ifram')

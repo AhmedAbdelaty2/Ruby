@@ -12,7 +12,7 @@ def arraySum(arr)
             flag = false
         end
     end
-    puts sum
+    return sum
 end
 
-arraySum([1,2,3,17,2,2])
+puts arraySum([1,2,3,17,2,2])

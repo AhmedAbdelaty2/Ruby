@@ -3,10 +3,10 @@ def createString(letter, times)
         for i in 1..times
             print letter
         end
-        puts ''
+        return ''
     else
-        puts 'number must be positive'
+        return 'number must be positive'
     end
 end
 
-createString("n",7)
+puts createString("n",7)

@@ -1,9 +1,11 @@
 def isLeapYear(year)
-    if year%4 == 0 and year%100 and year%400
-        puts "#{year}: is a Leap year"
+    if year%400 == 0
+        return "#{year}: is a Leap year"
+    elsif year%4 == 0 and year%100 != 0 
+        return "#{year}: is a Leap year"
     else
-        puts "#{year}: is not a Leap year"
+        return "#{year}: is not a Leap year"
     end
 end
 
-isLeapYear(2020)
+puts isLeapYear(2024)

@@ -4,7 +4,7 @@ def exchange(str)
     arr[arr.length()-1] = arr[0]
     arr[0] = temp
     str = arr.join()
-    puts str
+    return str
 end
 
-exchange('Java')
+puts exchange('Java')

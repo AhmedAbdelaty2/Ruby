@@ -4,10 +4,10 @@ def addLetter(str)
         arr.insert(0,arr[arr.length()-1])
         arr.insert(arr.length()-1,arr[arr.length()-1])
         str = arr.join()
-        puts str
+        return str
     else
-        puts 'the string must be longer than 1 charachter'
+        return 'the string must be longer than 1 charachter'
     end
 end
 
-addLetter('j')
+puts addLetter('java')
