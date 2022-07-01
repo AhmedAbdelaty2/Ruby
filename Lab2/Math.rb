@@ -22,7 +22,7 @@ class NewMath
         return error.message
       end
     else
-      return "called not supported operator"
+      return "not supported operator"
     end
   end
 end
