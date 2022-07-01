@@ -1,4 +1,4 @@
-class CustomMath
+class NewMath
 
   def calculate(first_number, second_number, operator)
     begin
@@ -27,5 +27,5 @@ class CustomMath
   end
 end
 
-calculator = CustomMath.new
+calculator = NewMath.new
 p calculator.calculate("7", "2", "*")
